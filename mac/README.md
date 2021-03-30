@@ -11,3 +11,43 @@
 - mindnode
 - xMind
 - iterm2
+- [SwitchHosts](https://oldj.github.io/SwitchHosts/)
+
+## 环境配置
+
+- [Mac OS X 工具技巧：一文搞定个性化命令行窗口（iTerm2 + zsh + oh-my-zsh 配置Powerline风格）
+](https://blog.csdn.net/mickjoust/article/details/82289497)
+- [编码字体预览](https://www.programmingfonts.org/)
+
+
+## git 别名
+```
+// ~/.gitconfig
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    pl = pull
+    ps = push
+    dt = difftool
+    l = log --stat
+    cp = cherry-pick
+    ca = commit -a
+    b = branch
+    pso = push origin
+    plo = pull origin
+    cm = commit -m
+    gst = git status
+    gd = git diff
+    gl = git pull
+    gp = git push
+    glo = git pull origin
+    gpo = git push origin
+    gcm = git common -m
+    gc = git checkout
+    gcm = git checkout master
+    gcd = git checkout develop
+    gb = git branch
+    ga = git add .
+
+```

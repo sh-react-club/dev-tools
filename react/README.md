@@ -27,6 +27,10 @@
 
 - [umi](https://umijs.org/zh-CN)
 
+## 脚手架
+
+- [vite](https://cn.vitejs.dev/)
+
 ## 常用组件
 
 - [react-virtualized](https://github.com/bvaughn/react-virtualized)
