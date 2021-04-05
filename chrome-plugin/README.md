@@ -1,6 +1,6 @@
-# chrome-plugin 
+# chrome-plugin
 
-## github 
+## github
 
 - Enhanced GitHub 显示文件大小
 - Gitako - GitHub file tree 左侧展示文件结构
@@ -22,3 +22,4 @@
 - Google 翻译
 - 划词翻译
 - 掘金
+- 眼睛护航

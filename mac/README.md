@@ -1,4 +1,4 @@
-# mac 
+# mac
 
 ## 常用软件
 
@@ -15,13 +15,17 @@
 
 ## 环境配置
 
-- [Mac OS X 工具技巧：一文搞定个性化命令行窗口（iTerm2 + zsh + oh-my-zsh 配置Powerline风格）
-](https://blog.csdn.net/mickjoust/article/details/82289497)
+- [Mac OS X 工具技巧：一文搞定个性化命令行窗口（iTerm2 + zsh + oh-my-zsh 配置Powerline风格）](https://blog.csdn.net/mickjoust/article/details/82289497)
 - [编码字体预览](https://www.programmingfonts.org/)
 
+## 上网
+
+- [medium 付费文章免费看](https://www.jianshu.com/p/e61ac8aecae8)
+- [开发者边车，github打不开，github加速，git clone加速，git release下载加速，stackoverflow加速](https://github.com/docmirror/dev-sidecar)
 
 ## git 别名
-```
+
+```bash
 // ~/.gitconfig
 [alias]
     co = checkout
