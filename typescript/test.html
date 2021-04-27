@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <title>tab选项卡</title>
+        <style type="text/css">
+            *{
+                font-family: simhei;
+            }
+            .tab-group{
+                padding: 1em 0em;
+            }
+            .tab-group>a{
+                padding: 1em 2em;
+                color: #666;
+                text-decoration: none;
+            }
+            .tab-group>.active{
+                padding: 1em 2em;
+                background: #999;
+                color: #fff;
+            }
+            .content-group{
+                width: 31.7%;
+                height: 10em;
+                background: #999;
+                color: #fff;
+            }
+            .content-group>.content-item{
+                display: none;
+            }
+            .content-group>.active{
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="tab-group">
+            <a href="item01" class="tab-item active" data-con='Mon' >周一</a>
+            <a href="item02" class="tab-item" data-con="Tue">周二</a>
+            <a href="item03" class="tab-item" data-con="Wen">周三</a>
+            <a href="item04" class="tab-item" data-con="Thur">周四</a>
+            <a href="item05" class="tab-item" data-con="Fri">周五</a>
+        </nav>
+        <div class="content-group">
+            <div class="content-item active" id="item01">联想</div>
+            <div class="content-item" id="item02">小米</div>
+            <div class="content-item" id="item03">苹果</div>
+            <div class="content-item" id="item04">苹果1</div>
+            <div class="content-item" id="item05">苹果2</div>
+    </body>
+</html>
+<script type="text/javascript">
+    var d = new Date().getDay();
+    const curDay = d - 1;
+    const aList = document.querySelectorAll(".tab-group a");
+    const aDom  = Array.from(aList);
+    const activeContent = document.querySelectorAll('.content-group div');
+    aDom.forEach((item,index)=>{
+        if (index === curDay) {
+            item.className = item.className + ' ' + "active";
+            activeContent[index].classList.add("active");
+            const con = item.getAttribute("data-con");
+            window.location.hash = con
+        } else {
+            item.className = item.className.replace(' active', '');
+            activeContent[index].classList.remove("active");
+        }
+    })
+
+    document.querySelector(".tab-group").addEventListener('click',function(event){
+        var target = event.target;
+        //点击选项
+        if(target.tagName === 'A' && ~target.className.indexOf('tab-item')){
+            event.preventDefault();
+             
+            if(~target.className.indexOf('active')){
+                return;
+            }
+             
+            var href = target.getAttribute('href');//获取点击的目标标志
+             
+            //TODO 切换选项
+            var activeTab = document.querySelector(".tab-group>.active");
+            console.log(activeTab)
+            activeTab.className = activeTab.className.replace(' active', '');
+            target.className = target.className + ' ' + "active";
+
+            const con = target.getAttribute("data-con");
+
+            window.location.hash = con
+ 
+            //TODO 选项对应的内容切换
+            var activeContent = document.querySelector('.content-group>.active');
+            activeContent.classList.remove('active');
+            var contentElem = document.getElementById(href);
+            contentElem.classList.add("active");
+        }
+    },false);
+</script>
