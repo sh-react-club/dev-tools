@@ -7,3 +7,4 @@
 - [mac](./mac/README.md)
 - [react](./react/README.md)
 - [vue](./vue/README.md)
+- [skills](./skills/README.md)
