@@ -6,3 +6,9 @@
 <div style={{ whiteSpace: 'pre-line' }}>{value}</div>
 ```
 
+## antd 组件渲染到父节点上 
+
+```jsx
+getPopupContainer={triggerNode => triggerNode.parentElement}
+```
+
