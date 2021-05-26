@@ -11,6 +11,8 @@
 - mindnode
 - xMind
 - iterm2
+- ishot 截图软件
+- 键指如飞 提示当前软件快捷键
 - [SwitchHosts](https://oldj.github.io/SwitchHosts/)
 
 ## 环境配置
