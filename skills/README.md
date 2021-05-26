@@ -12,3 +12,10 @@
 getPopupContainer={triggerNode => triggerNode.parentElement}
 ```
 
+## https 协议下无法下载 http协议文件
+
+可以根据当前协议重新拼接 url
+
+```js
+const url = new URL(url) 
+```
