@@ -41,3 +41,7 @@
 - [react-virtualized](https://github.com/bvaughn/react-virtualized)
 - [react-dnd](https://github.com/react-dnd/react-dnd)
 - [react-use](https://github.com/streamich/react-use)
+
+## 学习 
+- [图解 react 源码](https://github.com/7kms/react-illustration-series)
+- [react 技术揭秘](https://react.iamkasong.com/#%E5%AF%BC%E5%AD%A6%E8%A7%86%E9%A2%91)

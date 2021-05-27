@@ -6,7 +6,7 @@
 <div style={{ whiteSpace: 'pre-line' }}>{value}</div>
 ```
 
-## antd 组件渲染到父节点上 
+## antd 组件渲染到父节点上
 
 ```jsx
 getPopupContainer={triggerNode => triggerNode.parentElement}
@@ -18,4 +18,20 @@ getPopupContainer={triggerNode => triggerNode.parentElement}
 
 ```js
 const url = new URL(url) 
+```
+
+## 本地仓库关联远程
+
+```bash
+echo "# my-test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:BestDingSheng/my-test.git
+git push -u origin main
+#
+git remote add origin git@github.com:BestDingSheng/my-test.git
+git branch -M main
+git push -u origin main
 ```
