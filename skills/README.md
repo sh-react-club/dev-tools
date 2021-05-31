@@ -35,3 +35,10 @@ git remote add origin git@github.com:BestDingSheng/my-test.git
 git branch -M main
 git push -u origin main
 ```
+
+## antd Table 组件设置 scroll col 中渲染 Select 组件展示问题 
+
+- 如果设置挂载容器 那么会撑开 table 
+- 不设置会 随着滚动态条 滚动
+- 解决方案 在 table 外面包裹一个 div 把 select 渲染到 这个 div 下面 
+- [点我查看](https://codesandbox.io/s/table-zhong-render-select-wenti-tbz73)
