@@ -25,6 +25,10 @@
 - [medium 付费文章免费看](https://www.jianshu.com/p/e61ac8aecae8)
 - [开发者边车，github打不开，github加速，git clone加速，git release下载加速，stackoverflow加速](https://github.com/docmirror/dev-sidecar)
 
+## 其他
+
+- [微信助手](https://github.com/lmk123/oh-my-wechat)
+
 ## git 别名
 
 ```bash
