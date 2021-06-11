@@ -6,7 +6,9 @@
 
 ## Router
 
-[react-router](https://github.com/ReactTraining/react-router)
+- [react-router](https://github.com/ReactTraining/react-router)
+- [react-router-config 配置路由](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config)
+- [配置路由教程](https://www.cnblogs.com/qingyuano/p/13556943.html)
 
 ## Store
 

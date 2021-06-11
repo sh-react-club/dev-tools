@@ -29,6 +29,10 @@
 
 - [微信助手](https://github.com/lmk123/oh-my-wechat)
 
+## git 使用技巧 
+
+- [tig封装了git log](https://zhuanlan.zhihu.com/p/72554875)
+
 ## git 别名
 
 ```bash
