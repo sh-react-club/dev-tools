@@ -16,6 +16,7 @@
 - [concent](https://github.com/concentjs/concent)
 - [react-tracked](https://github.com/dai-shi/react-tracked)
 - [recoil](https://recoil.js.cn/docs/introduction/core-concepts)
+- [icestore](https://github.com/ice-lab/icestore)
 
 ## UI 组件库
 
