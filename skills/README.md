@@ -20,22 +20,6 @@ getPopupContainer={triggerNode => triggerNode.parentElement}
 const url = new URL(url) 
 ```
 
-## 本地仓库关联远程
-
-```bash
-echo "# my-test" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:BestDingSheng/my-test.git
-git push -u origin main
-#
-git remote add origin git@github.com:BestDingSheng/my-test.git
-git branch -M main
-git push -u origin main
-```
-
 ## antd Table 组件设置 scroll col 中渲染 Select 组件展示问题 
 
 - 如果设置挂载容器 那么会撑开 table 
