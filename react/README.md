@@ -51,3 +51,8 @@
 
 - [图解 react 源码](https://github.com/7kms/react-illustration-series)
 - [react 技术揭秘](https://react.iamkasong.com/#%E5%AF%BC%E5%AD%A6%E8%A7%86%E9%A2%91)
+
+## 其他
+
+- [apollographql](https://www.apollographql.com/docs/react/get-started/)
+- [graphql](https://graphql.cn/)

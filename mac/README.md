@@ -8,9 +8,11 @@
 - pap.er 更换背景
 - uTools 工具集合
 - Flux 调整色温
-- mindnode
-- xMind
-- iterm2
+- mindnode 思维导图
+- xMind 思维导图
+- draw.io 流程图
+- iterm2 终端
+- diffmerge 文件对比
 - ishot 截图软件
 - 键指如飞 提示当前软件快捷键
 - [SwitchHosts](https://oldj.github.io/SwitchHosts/)
