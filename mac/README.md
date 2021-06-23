@@ -30,3 +30,8 @@
 ## 其他
 
 - [微信助手](https://github.com/lmk123/oh-my-wechat)
+
+## 设置终端代理
+
+- [mac os 使用终端代理](https://github.com/FatliTalk/blog/issues/131)
+- [设置终端代理2](https://github.com/mrdulin/blog/issues/18)

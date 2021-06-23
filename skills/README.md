@@ -26,3 +26,7 @@ const url = new URL(url)
 - 不设置会 随着滚动态条 滚动
 - 解决方案 在 table 外面包裹一个 div 把 select 渲染到 这个 div 下面 
 - [点我查看](https://codesandbox.io/s/table-zhong-render-select-wenti-tbz73)
+
+## 子组件延迟渲染
+
+今天碰到个问题, 父组件请求了几个接口后 过了好几秒子组件又重新 render , 导致用户在 input 上输入的值 被覆盖了， 最后的解决方案是 对子组件做了优化 如果 value 相同那么就不重复 render , 根本原因还是根 react 渲染机制有关 这个还得在深入学习
