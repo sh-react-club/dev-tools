@@ -2,7 +2,7 @@
 
 ## git 使用技巧
 
-- [tig封装了git log](https://zhuanlan.zhihu.com/p/72554875)
+- [tig 封装了git log](https://zhuanlan.zhihu.com/p/72554875)
 - [1990-script](https://github.com/antfu/1990-script)
 
 ## 本地仓库关联远程
@@ -53,3 +53,13 @@ git push -u origin main
     ga = git add .
 
 ```
+
+## git stash 用法
+
+- git stash save 'message'
+- git stash pop  弹出最近一次 stash 并且删除
+- git stash apply 弹出最近一次 stash 不删除 stash
+- git stash list 查看当前 stash
+- git stash save -u '暂存 未被跟踪的文件'
+- git stash save -a '暂存 git 工作区 所有修改的文件'
+- [git stash 用法总结](https://www.cnblogs.com/tocy/p/git-stash-reference.html)

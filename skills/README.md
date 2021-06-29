@@ -46,3 +46,13 @@ const url = new URL(url)
 <!-- 格式化后会成 -->
 <div />
 ```
+## antd 3 升级到 4 的一些总
+
+table 组件 
+
+- DataSource 必须要有一个唯一 key , 没有的 DataSource 有值组件不会显示
+- 增删修改了 DataSource 必须返回一个新的 DataSource , 不然组件认为你没有修改 页面上不会更新
+
+superfrom 组件
+
+- 需要拷贝一分传进去， 不然会报不能修改的错误 
