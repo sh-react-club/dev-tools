@@ -51,6 +51,7 @@
 
 - [react-virtualized](https://github.com/bvaughn/react-virtualized)
 - [react-dnd](https://github.com/react-dnd/react-dnd)
+- [react-viewer](https://github.com/infeng/react-viewer)
 - [精选组件](https://uiwjs.github.io/#/guide/recommendation)
 
 
