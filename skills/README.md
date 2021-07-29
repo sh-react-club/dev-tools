@@ -46,6 +46,7 @@ const url = new URL(url)
 <!-- 格式化后会成 -->
 <div />
 ```
+
 ## antd 3 升级到 4 的一些总
 
 table 组件 
@@ -56,3 +57,18 @@ table 组件
 superfrom 组件
 
 - 需要拷贝一分传进去， 不然会报不能修改的错误 
+
+## window.oepn 下载文件 
+
+在 https 下的 web 应用中，如果 window.open(url), url 是 http 协议 那么就会浏览窗口一闪而过没有下载成功。
+原因 主要是浏览的安全机制会阻止 http 的请求，解决方案是 当前浏览器是什么协议 就把下载地址替换成什么协议 。
+
+``` js
+try {
+  const url = new URL(orginUrl);
+  const newUrl = `https://${url.host}${url.pathname}`;
+  window.open(newUrl);
+} catch (e) {
+  console.log(e)
+}
+```
