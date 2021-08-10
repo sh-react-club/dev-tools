@@ -35,3 +35,9 @@
 
 - [mac os 使用终端代理](https://github.com/FatliTalk/blog/issues/131)
 - [设置终端代理2](https://github.com/mrdulin/blog/issues/18)
+
+## 终端代理命令
+
+```bash
+export https_proxy=http://127.0.0.1:41081 http_proxy=http://127.0.0.1:41081 all_proxy=socks5://127.0.0.1:1080
+```
