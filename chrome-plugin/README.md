@@ -2,10 +2,10 @@
 
 ## github
 
-- Enhanced GitHub 显示文件大小
+- Enhanced GitHub 显示文件大小以及可以下载单个文件
 - Gitako - GitHub file tree 左侧展示文件结构
-- OctoLinker
-- githunt
+- OctoLinke - Github 可以跳转到第三方库的仓库以及简介
+- githunt - 咨询， 可以查看当前热门的开源项目
 
 ## dev
 
