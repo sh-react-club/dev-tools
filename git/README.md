@@ -1,7 +1,7 @@
 # git&github
 
 ## git 使用技巧
-
+- [How to learn Git slowly.](https://dev.to/samuelfaure/how-to-learn-git-slowly-38fa)
 - [tig 封装了git log](https://zhuanlan.zhihu.com/p/72554875)
 - [1990-script](https://github.com/antfu/1990-script)
 
