@@ -8,3 +8,6 @@
 - [react](./react/README.md)
 - [vue](./vue/README.md)
 - [skills](./skills/README.md)
+- [fe-team](./fe-team/README.md)
+- [git](./git/README.md)
+- [soft-skills](./soft-skills/README.md)
