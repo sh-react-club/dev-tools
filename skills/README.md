@@ -66,7 +66,7 @@ superfrom 组件
 ``` js
 try {
   const url = new URL(orginUrl);
-  const newUrl = `https://${url.host}${url.pathname}`;
+  const newUrl = `${ur.protocol}://${url.host}${url.pathname}`;
   window.open(newUrl);
 } catch (e) {
   console.log(e)
