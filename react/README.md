@@ -59,6 +59,7 @@
 
 - [react-use](https://github.com/streamich/react-use)
 - [ahooks](https://ahooks.js.org/zh-CN/hooks/async)
+- [swr 用于数据请求的 react hook库](https://swr.vercel.app/zh-CN/docs/getting-started#%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%BB%84%E4%BB%B6)
 
 ## 学习
 
