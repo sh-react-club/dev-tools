@@ -72,3 +72,11 @@ try {
   console.log(e)
 }
 ```
+
+## React.memo 中的坑
+
+如果组件的属性是一个 引用数据类型，数据更新后 组件如果使用了 memo 那么组件就不会更新 ，需要配合 immer 一起使用
+
+```jsx
+<A obj={obj}></A>
+```
