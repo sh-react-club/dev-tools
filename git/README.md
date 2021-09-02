@@ -8,6 +8,7 @@
 - [How to learn Git slowly.](https://dev.to/samuelfaure/how-to-learn-git-slowly-38fa)
 - [tig 封装了git log](https://zhuanlan.zhihu.com/p/72554875)
 - [1990-script](https://github.com/antfu/1990-script)
+- [Git 更安全的强制推送，--force-with-lease](https://blog.csdn.net/WPwalter/article/details/80371264)
 
 ## 本地仓库关联远程
 
