@@ -9,6 +9,7 @@
 - [tig 封装了git log](https://zhuanlan.zhihu.com/p/72554875)
 - [1990-script](https://github.com/antfu/1990-script)
 - [Git 更安全的强制推送，--force-with-lease](https://blog.csdn.net/WPwalter/article/details/80371264)
+- [如何使用 git rebase](https://zhuanlan.zhihu.com/p/145037478)
 
 ## 本地仓库关联远程
 
