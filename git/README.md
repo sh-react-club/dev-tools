@@ -1,5 +1,9 @@
 # git&github
 
+## git 学习
+
+- [githowto](https://githowto.com/setup)
+
 ## git 使用技巧
 - [How to learn Git slowly.](https://dev.to/samuelfaure/how-to-learn-git-slowly-38fa)
 - [tig 封装了git log](https://zhuanlan.zhihu.com/p/72554875)
