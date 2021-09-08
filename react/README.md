@@ -17,6 +17,7 @@
 - [react-tracked](https://github.com/dai-shi/react-tracked)
 - [recoil](https://recoil.js.cn/docs/introduction/core-concepts)
 - [icestore](https://github.com/ice-lab/icestore)
+- [xstate](https://github.com/statelyai/xstate/tree/main/packages/xstate-react)
 
 ## UI 组件库
 
