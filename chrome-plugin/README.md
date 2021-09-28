@@ -20,7 +20,7 @@
 - Screenshot Extension 网页截图
 - One Extension 插件管理
 - Google 翻译
-- 划词翻译
+- [划词翻译](https://hcfy.app/docs/install)
 - 掘金
 - 眼睛护航
 - cubox 浏览器标签管理
