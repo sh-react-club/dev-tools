@@ -13,7 +13,7 @@
 - draw.io 流程图
 - iterm2 终端
 - diffmerge 文件对比
-- ishot 截图软件
+- ishot 截图软件 [截图](https://xclient.info/s/ishot.html#versions)
 - 键指如飞 提示当前软件快捷键
 - [SwitchHosts](https://oldj.github.io/SwitchHosts/)
 
