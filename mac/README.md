@@ -2,7 +2,7 @@
 
 ## 常用软件
 
-- clipay 剪切板
+- clipy 剪切板 [下载地址](https://clipy.en.softonic.com/mac)
 - spectacle 电脑分屏
 - Picgo 图床工具
 - pap.er 更换背景
