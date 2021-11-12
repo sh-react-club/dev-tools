@@ -16,6 +16,7 @@
 - ishot 截图软件 [截图](https://xclient.info/s/ishot.html#versions)
 - 键指如飞 提示当前软件快捷键
 - [SwitchHosts](https://oldj.github.io/SwitchHosts/)
+- 在线画图工具 https://excalidraw.com/ 
 
 ## 环境配置
 
