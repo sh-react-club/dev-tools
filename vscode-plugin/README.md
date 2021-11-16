@@ -31,7 +31,12 @@
 - Polacode-2020  代码分享
 - WakaTime  代码统计
 - Todo Tree
-- tabnine AI 代码只能提示  https://www.tabnine.com/
+- tabnine 代码智能提示
+- 
+
+## code snippets 
+- JavaScript (ES6) code snippets 
+- ES7 React/Redux/GraphQL/React-Native snippets
 
 ## Syntax highlighting
 
