@@ -31,6 +31,7 @@
 - Polacode-2020  代码分享
 - WakaTime  代码统计
 - Todo Tree
+- tabnine AI 代码只能提示  https://www.tabnine.com/
 
 ## Syntax highlighting
 
