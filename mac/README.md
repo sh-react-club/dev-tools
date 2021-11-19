@@ -17,6 +17,7 @@
 - 键指如飞 提示当前软件快捷键
 - [SwitchHosts](https://oldj.github.io/SwitchHosts/)
 - 在线画图工具 https://excalidraw.com/ 
+- App Uninstaller 磁盘清理工具
 
 ## 环境配置
 
